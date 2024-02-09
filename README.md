@@ -6,8 +6,6 @@ This is the big list of F/OSS projects that powers [Awesome F/OSS][awsmfoss]
 
 # Contents
 
-Here's the list, check out all the awesome Free and Open Source software that's been listed on Awesome F/OSS so far (newest first!):
-
 - [🔑 sup3rS3cretMes5age!](https://awsmfoss.com/sup3rs3cretmes5age/)
 - [🗨 Matrix](https://awsmfoss.com/matrix/)
 - [📁 Dropzone.js](https://awsmfoss.com/dropzone/)
