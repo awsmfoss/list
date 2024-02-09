@@ -1,0 +1,48 @@
+name: New Project
+description: List a new project on AWSM F/OSS
+title: "feat: Add project "
+labels: ["enhancement", "new-project"]
+projects: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got a new project for us to feature on Awesome F/OSS? Tell us more about it and yourself here!
+  - type: input
+    id: website-marketing
+    attributes:
+      label: Website (marketing)
+      description: Does the project have a marketing website we can read?
+      placeholder: ex. www.awesomeproject.com
+    validations:
+      required: false
+  - type: input
+    id: website-code
+    attributes:
+      label: Website (code)
+      description: Does the project have a source repository we can peruse?
+      placeholder: ex. (gitlab.com|github.com)/user/project
+    validations:
+      required: false
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Relationship to projet
+      description: What's your relationship to the project?
+      options:
+        - Fan
+        - Maintainer
+        - Creator
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the project for us
+      description: |
+        What's the project about? What should we know about it?
+        Note that this isn't necessarily what we will put in the post, but we'd like to know!
+      placeholder: Tell us what makes this project awesome!
+    validations:
+      required: true
